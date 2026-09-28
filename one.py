@@ -6,6 +6,6 @@ def mat(a_11, n):
         n = n - 1
     print(matrica)
 
-per = int(input("Введите первый символ"))
-col = int(input("Введите количество"))
+per = int(input("Введите первый символ "))
+col = int(input("Введите количество "))
 mat(per, col)
