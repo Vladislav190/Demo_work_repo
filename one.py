@@ -7,7 +7,7 @@ def mat(a_11, n):
         for i in range(1, n1+1):
             strok.append(a_11)
             a_11 += 1
-        matrica.append(strok)
+        matrica.append(strok * 2)
         n = n - 1 
     print(matrica)
 per = int(input("Введите первый символ "))
