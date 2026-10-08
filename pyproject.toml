@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "input_sig"
+version = "0.1.1"
+description = "Этот проект перемножает полиномы, хранит полиномы и находит выходной сигнал относительно входящего."
+
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]
