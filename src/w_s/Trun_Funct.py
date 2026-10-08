@@ -30,3 +30,7 @@ class TF:
          B[-1, 0] = 1
       C = r[::-1].reshape(1, n)                          
       return A, B, C, D
+
+def matric(mat:TF):
+   A, B, C, D, = mat.to_ss()
+   return A, B, C, D,
